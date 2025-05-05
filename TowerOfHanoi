@@ -8,6 +8,7 @@ move(N, From, To, Aux) :-
     move(M, Aux, To, From).
 
 towerofhanoi(N) :- move(N, left, right, center).
+
 /// TO RUN 
 towerofhanoi(3)
 ///
